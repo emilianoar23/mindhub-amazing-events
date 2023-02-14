@@ -55,15 +55,28 @@ footer p {
 
 /*------------ HOME ------------*/
 
+.hero-section-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.hero-section-nav h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
 .nav-cards {
     display: flex;
     flex-direction: column;
-    margin: 80px;
+    margin: 30px 30px 250px 30px;
 }
 
 .card img {
     height: 160px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: -4px -4px 8px;
 }
 
 .card-body {
