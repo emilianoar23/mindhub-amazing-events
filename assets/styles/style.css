@@ -121,3 +121,31 @@ form button {
 }
 
 /*----------------- STATS -----------------*/
+
+.stats-table {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+table {
+    font-size: 1.5em;
+    border: 2px solid;
+}
+
+thead {
+    border: 2px solid;
+}
+
+
+th {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.200);
+}
+
+tbody td {
+    font-size: 0.8em;
+    padding: 0px 20px 0px 5px;
+    border: 2px solid;
+}
+
