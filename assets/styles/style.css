@@ -93,6 +93,10 @@ footer p {
     align-items: baseline;
 }
 
+.details-cont {
+    margin-bottom: 70vh ;
+}
+
 /*------------ UPCOMING EVENTS ------------*/
 
 /*-------------- PAST EVENTS --------------*/
@@ -191,7 +195,7 @@ tbody td {
     flex-direction: column;
 }
 
-nav .nav.nav-pills.justify-content-end {
+nav .nav.nav-pills {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -223,7 +227,7 @@ footer p {
     text-align: center;
 }
 
-.d-flex.justify-content-between {
+.d-flex.justify-content-around {
     flex-wrap: wrap;
 }
 
@@ -244,6 +248,93 @@ table {
     font-size: 1em;
 }
 
+
+
+
+
+}
+
+/*------------------ MEDIA QUERIES TABLETS -----------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+.header-container {
+    flex-direction: column;
+}
+
+nav .nav.nav-pills {
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*------------------ HOME ------------------*/
+
+.hero-section-nav img {
+    width: 50px;
+}
+
+.hero-section-nav h1 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.navbar>.container-fluid {
+    justify-content: space-between;
+}
+
+.container-fluid form {
+    flex-wrap: nowrap;
+    margin: 15px;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+
+
+
+/*--------------- PAST EVENTS ---------------*/
+
+.past-events-container {
+    flex-wrap: wrap;
+    margin: 60px 40px;
+}
+
+/*------------------ STATS ------------------*/
+
+table {
+    font-size: 1em;
+}
+
+}
+
+/*------------------ MEDIA QUERIES TABLETS -----------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    nav .nav.nav-pills {
+    justify-content: center;
+}
+
+form.d-flex{
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+
+.d-flex {
+    flex-wrap: wrap;    
+}
+
+.card {
+    margin: 20px;
+    margin-bottom: 30px;
+}
 
 
 
