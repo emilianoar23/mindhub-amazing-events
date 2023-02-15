@@ -248,10 +248,6 @@ table {
     font-size: 1em;
 }
 
-
-
-
-
 }
 
 /*------------------ MEDIA QUERIES TABLETS -----------------*/
@@ -296,9 +292,6 @@ nav .nav.nav-pills {
     margin-bottom: 30px;
 }
 
-
-
-
 /*--------------- PAST EVENTS ---------------*/
 
 .past-events-container {
@@ -335,8 +328,5 @@ form.d-flex{
     margin: 20px;
     margin-bottom: 30px;
 }
-
-
-
 
 }
