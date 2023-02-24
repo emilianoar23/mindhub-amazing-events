@@ -74,6 +74,10 @@ footer p {
     margin: 30px 30px 250px 30px;
 }
 
+.d-flex {
+    flex-wrap: wrap;
+}
+
 .card img {
     height: 160px;
     box-shadow: -4px -4px 8px;
@@ -91,10 +95,6 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-.details-cont {
-    margin-bottom: 70vh ;
 }
 
 /*------------ UPCOMING EVENTS ------------*/
