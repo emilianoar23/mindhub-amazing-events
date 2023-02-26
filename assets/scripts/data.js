@@ -197,7 +197,3 @@ console.log(upcomingEvents, 'Upcoming Events:')
 
 
 
-
-
-
-
