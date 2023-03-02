@@ -1,3 +1,5 @@
+let eventInfo = data.events;
+
 let container = document.getElementById('eventPastContainer');
 
 let fragment = document.createDocumentFragment();

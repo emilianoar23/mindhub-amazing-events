@@ -171,29 +171,3 @@ var data = {
       }
     ]
   }
-
-
-let eventInfo = data.events;
-
-let referenceDate = new Date(data.currentDate);
-
-let upcomingEvents = [];
-let pastEvents = [];
-
-eventInfo.forEach(function(event) {
-  let eventDate = new Date(event.date);
-  
-  if (eventDate < referenceDate) {
-    pastEvents.push(event);
-  } else {
-    upcomingEvents.push(event);
-  }
-});
-
-console.log(pastEvents, 'Past Events:')
-
-console.log(upcomingEvents, 'Upcoming Events:')
-
-
-
-
