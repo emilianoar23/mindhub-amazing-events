@@ -21,7 +21,7 @@ let card = `
         <p class="card-text">Assistance: ${event.assistance || event.estimate}</p>
         <div class="card-btn-section">
             <p>Price ${event.price}</p>
-            <a href="./details.html" class="btn btn-dark">More info</a>
+            <a href="./pages/details.html" class="btn btn-dark">More info</a>
         </div>
     </div>
 </div>
