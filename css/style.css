@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #BDBDD7;
+}
+
+/*----------------- HEADER -----------------*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #46466E;
+    padding: 1.2em;
+}
+
+.header-container img {
+    width: 220px;
+}
+
+nav .nav-item {
+    padding: 10px;
+}
+
+/*------------ FOOTER ------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #46466E;
+}
+
+.footer-ico {
+    padding: 20px;
+}
+
+footer p {
+    font-size: 2em;
+    padding: 40px;
+    margin: 0px 40px 0px 0px;
+    font-weight: bold;
+    color: #d90368;
+}
+
+/*------------ HOME ------------*/
+
+.hero-section-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.hero-section-nav h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.nav-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 250px 30px;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: 160px;
+    box-shadow: -4px -4px 8px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+}
+
+.card-btn-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+/*------------ UPCOMING EVENTS ------------*/
+
+/*-------------- PAST EVENTS --------------*/
+
+.past-events {
+    display: flex;
+    justify-content: center;
+}
+
+.past-events-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid;
+    margin: 80px 0px;
+    padding: 30px;
+}
+
+.past-events-container img {
+    width: 250px;
+    height: 250px;
+    box-shadow: -4px -4px 10px;
+}
+
+.text-area {
+    font-size: 1em;
+    border: 2px solid;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------- CONTACT ----------------*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 500px;
+}
+
+form textarea {
+    height: 250px;
+    resize: none; 
+}
+
+form button {
+    width: 100px;
+    align-self: flex-end;
+}
+
+/*----------------- STATS -----------------*/
+
+.stats-table {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+table {
+    font-size: 1.5em;
+    border: 2px solid;
+}
+
+thead {
+    border: 2px solid;
+}
+
+th {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.200);
+}
+
+tbody td {
+    font-size: 0.8em;
+    padding: 0px 20px 0px 5px;
+    border: 2px solid;
+}
+
+/*------------------- MEDIA QUERIES MOBILE -----------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+/*----------------- HEADER -----------------*/
+
+.header-container {
+    flex-direction: column;
+}
+
+nav .nav.nav-pills {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/*----------------- FOOTER -----------------*/
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-ico {
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*------------------ HOME ------------------*/
+
+.hero-section-nav img {
+    width: 40px;
+}
+
+.hero-section-nav h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.d-flex.justify-content-around {
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/*--------------- PAST EVENTS ---------------*/
+
+.past-events-container {
+    flex-wrap: wrap;
+    margin: 60px 10px;
+}
+
+/*------------------ STATS ------------------*/
+
+table {
+    font-size: 1em;
+}
+
+}
+
+/*------------------ MEDIA QUERIES TABLETS -----------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+.header-container {
+    flex-direction: column;
+}
+
+nav .nav.nav-pills {
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*------------------ HOME ------------------*/
+
+.hero-section-nav img {
+    width: 50px;
+}
+
+.hero-section-nav h1 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.navbar>.container-fluid {
+    justify-content: space-between;
+}
+
+.container-fluid form {
+    flex-wrap: nowrap;
+    margin: 15px;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/*--------------- PAST EVENTS ---------------*/
+
+.past-events-container {
+    flex-wrap: wrap;
+    margin: 60px 40px;
+}
+
+/*------------------ STATS ------------------*/
+
+table {
+    font-size: 1em;
+}
+
+}
+
+/*------------------ MEDIA QUERIES TABLETS -----------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    nav .nav.nav-pills {
+    justify-content: center;
+}
+
+form.d-flex{
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+
+.d-flex {
+    flex-wrap: wrap;    
+}
+
+.card {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+}
