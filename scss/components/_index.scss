@@ -1,7 +1,39 @@
-.hero-section-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
-    padding: 20px;
+main {
+    .hero-section-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 20px;
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+    }
+    .nav-cards {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 30px 250px 30px;
+        .d-flex {
+            flex-wrap: wrap;
+        }
+        .card{
+            img {
+                height: 180px;
+                box-shadow: -4px -4px 8px;
+            }
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: stretch;
+                text-align: center;
+                .card-btn-section {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: baseline;
+                }
+            }
+        }
+    }
 }
