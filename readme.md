@@ -1,11 +1,11 @@
 <h1 align="center">Welcome to Amazing Events!</h1>
 
-<h3 align="left">Description:
-Amazing Events is a web application that presents information about past and upcoming events, allowing users to explore specific details of each event and obtain related statistics. The application is developed using HTML, CSS, JavaScript, and utilizes SASS for efficient and modular style management.
-This project was part of the Mind-Hub - Argentina Program bootcamp in which I participated.
-
-Objectives:
-
+<h3 align="left">Description:<br>
+<br>Amazing Events is a web application that presents information about past and upcoming events, allowing users to explore specific details of each event and obtain related statistics. The application is developed using HTML, CSS, JavaScript, and utilizes SASS for efficient and modular style management.
+This project was part of the Mind-Hub - Argentina Program bootcamp in which I participated.<br>
+<br>
+Objectives:<br>
+<br>
 Provide a functional and aesthetically pleasing web application.
 Demonstrate skills in web development, including HTML, CSS, JavaScript, and SASS.
 Adhere to recommended practices in file organization and the use of external libraries.
