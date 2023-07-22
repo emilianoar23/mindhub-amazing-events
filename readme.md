@@ -2,7 +2,7 @@
 
 <h3 align="left">Description:<br>
 <br>Amazing Events is a web application that presents information about past and upcoming events, allowing users to explore specific details of each event and obtain related statistics. The application is developed using HTML, CSS, JavaScript, and utilizes SASS for efficient and modular style management.
-This project was part of the Mind-Hub - Argentina Program bootcamp in which I participated.<br>
+This project was part of the Mind-Hub - Argentina Programa 4.0 bootcamp in which I participated.<br>
 <br>
 Objectives:<br>
 <br>
