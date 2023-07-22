@@ -67,6 +67,23 @@ main .nav-cards {
       width: 100px;
       align-self: flex-end; }
 
+.stats-table {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+  .stats-table table {
+    font-size: 1.5em;
+    border: 2px solid; }
+    .stats-table table thead {
+      border: 2px solid; }
+      .stats-table table thead th {
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.2); }
+    .stats-table table td {
+      font-size: 0.8em;
+      padding: 0px 20px 0px 5px;
+      border: 2px solid; }
+
 footer {
   display: flex;
   align-items: center;
