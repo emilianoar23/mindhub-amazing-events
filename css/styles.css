@@ -52,6 +52,21 @@ main .nav-cards {
       justify-content: space-around;
       align-items: baseline; }
 
+.contact {
+  display: flex;
+  justify-content: center; }
+  .contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 500px; }
+    .contact .contact-form textarea {
+      height: 250px;
+      resize: none; }
+    .contact .contact-form button {
+      width: 100px;
+      align-self: flex-end; }
+
 footer {
   display: flex;
   align-items: center;
