@@ -13,6 +13,15 @@
     .hero-section-nav {
         flex-direction: column;
         align-items: center;
+        padding: 8px;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 80%;
+            }
+        }
     }
     .nav-cards {
         margin: 10px;
