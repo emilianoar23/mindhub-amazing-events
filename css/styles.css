@@ -35,22 +35,31 @@ main .hero-section-nav {
 main .nav-cards {
   display: flex;
   flex-direction: column;
-  margin: 30px 30px 250px 30px; }
-  main .nav-cards .d-flex {
-    flex-wrap: wrap; }
-  main .nav-cards .card img {
-    height: 180px;
-    box-shadow: -4px -4px 8px; }
-  main .nav-cards .card .card-body {
+  margin: 30px;
+  padding: 30px; }
+  main .nav-cards .row {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    text-align: center; }
-    main .nav-cards .card .card-body .card-btn-section {
-      display: flex;
-      justify-content: space-around;
-      align-items: baseline; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    main .nav-cards .row .d-flex {
+      flex-wrap: wrap; }
+      main .nav-cards .row .d-flex .card {
+        width: 18rem;
+        margin: 1rem; }
+        main .nav-cards .row .d-flex .card img {
+          width: 100%;
+          height: 180px;
+          box-shadow: -4px -4px 8px; }
+        main .nav-cards .row .d-flex .card .card-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: stretch;
+          text-align: center; }
+          main .nav-cards .row .d-flex .card .card-body .card-btn-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline; }
 
 .contact {
   display: flex;
@@ -100,9 +109,34 @@ footer {
 
 /*------------------- MEDIA QUERIES MOBILE -----------------*/
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  /*----------------- HEADER -----------------*/
   header {
     flex-direction: column; }
     header .nav.nav-pills {
       display: flex;
       flex-direction: column;
-      align-items: stretch; } }
+      align-items: stretch; }
+  /*------------------ HOME ------------------*/
+  .hero-section-nav {
+    flex-direction: column;
+    align-items: center; }
+  .nav-cards {
+    margin: 10px;
+    padding: 10px; }
+    .nav-cards .row {
+      justify-content: center; }
+      .nav-cards .row .d-flex .card {
+        justify-content: center;
+        align-items: center; }
+        .nav-cards .row .d-flex .card img {
+          width: 90%;
+          height: 180px;
+          padding: 0; }
+  /*----------------- FOOTER -----------------*/
+  footer {
+    flex-direction: column;
+    align-items: center; }
+    footer .footer-ico {
+      margin-top: 30px; }
+    footer p {
+      margin: 0; } }

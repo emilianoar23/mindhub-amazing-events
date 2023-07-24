@@ -13,25 +13,34 @@ main {
     .nav-cards {
         display: flex;
         flex-direction: column;
-        margin: 30px 30px 250px 30px;
-        .d-flex {
+        margin: 30px;
+        padding: 30px;
+        .row {
+            display: flex;
+            justify-content: space-around;
             flex-wrap: wrap;
-        }
-        .card{
-            img {
-                height: 180px;
-                box-shadow: -4px -4px 8px;
-            }
-            .card-body {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: stretch;
-                text-align: center;
-                .card-btn-section {
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: baseline;
+            .d-flex {
+                flex-wrap: wrap;
+                .card {
+                    width: 18rem;
+                    margin: 1rem;
+                    img {
+                        width: 100%;
+                        height: 180px;
+                        box-shadow: -4px -4px 8px;
+                    }
+                    .card-body {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: stretch;
+                        text-align: center;
+                        .card-btn-section {
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: baseline;
+                        }
+                    }
                 }
             }
         }
