@@ -1,0 +1,13 @@
+/*------------------- MEDIA QUERIES MOBILE -----------------*/
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+    header {
+        flex-direction: column;
+        .nav.nav-pills {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+        
+}
