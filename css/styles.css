@@ -40,7 +40,6 @@ main .nav-cards {
 
 main .row {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap; }
   main .row .d-flex {
     flex-wrap: wrap; }
