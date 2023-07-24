@@ -37,29 +37,31 @@ main .nav-cards {
   flex-direction: column;
   margin: 30px;
   padding: 30px; }
-  main .nav-cards .row {
-    display: flex;
-    justify-content: space-around;
+
+main .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  main .row .d-flex {
     flex-wrap: wrap; }
-    main .nav-cards .row .d-flex {
-      flex-wrap: wrap; }
-      main .nav-cards .row .d-flex .card {
-        width: 18rem;
-        margin: 1rem; }
-        main .nav-cards .row .d-flex .card img {
-          width: 100%;
-          height: 180px;
-          box-shadow: -4px -4px 8px; }
-        main .nav-cards .row .d-flex .card .card-body {
+    main .row .d-flex .card {
+      width: 18rem;
+      margin: 10px; }
+      main .row .d-flex .card img {
+        align-self: center;
+        width: 100%;
+        height: 180px;
+        box-shadow: -4px -4px 8px; }
+      main .row .d-flex .card .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        text-align: center; }
+        main .row .d-flex .card .card-body .card-btn-section {
           display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: stretch;
-          text-align: center; }
-          main .nav-cards .row .d-flex .card .card-body .card-btn-section {
-            display: flex;
-            justify-content: space-around;
-            align-items: baseline; }
+          justify-content: space-around;
+          align-items: baseline; }
 
 .contact {
   display: flex;
@@ -123,15 +125,21 @@ footer {
   .nav-cards {
     margin: 10px;
     padding: 10px; }
-    .nav-cards .row {
-      justify-content: center; }
-      .nav-cards .row .d-flex .card {
+  .row {
+    justify-content: center; }
+    .row .d-flex .card.m-4 {
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 20rem; }
+      .row .d-flex .card.m-4 .card-image {
+        display: flex;
         justify-content: center;
-        align-items: center; }
-        .nav-cards .row .d-flex .card img {
-          width: 90%;
-          height: 180px;
-          padding: 0; }
+        align-items: center;
+        width: 70%;
+        height: auto; }
+      .row .d-flex .card.m-4 .card-body {
+        width: 17rem; }
   /*----------------- FOOTER -----------------*/
   footer {
     flex-direction: column;
