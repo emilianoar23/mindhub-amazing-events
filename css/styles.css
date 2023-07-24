@@ -129,9 +129,9 @@ footer {
       justify-content: center; }
       .hero-section-nav a img {
         width: 80%; }
-  .nav-cards {
-    margin: 10px;
-    padding: 10px; }
+  .nav-bar-section {
+    margin: 5px;
+    padding: 5px; }
   .row {
     justify-content: center; }
     .row .d-flex .card.m-4 {

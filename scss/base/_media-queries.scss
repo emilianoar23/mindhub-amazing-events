@@ -23,31 +23,31 @@
             }
         }
     }
-    .nav-cards {
-        margin: 10px;
-        padding: 10px;
+    .nav-bar-section {
+        margin: 5px;
+        padding: 5px;
     }
-        .row {
-            justify-content: center;
-            .d-flex {
-                .card.m-4{
+    .row {
+        justify-content: center;
+        .d-flex {
+            .card.m-4{
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                width: 20rem;
+                .card-image {
+                    display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin: 0;
-                    width: 20rem;
-                    .card-image {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        width: 70%;
-                        height: auto;
-                    }
-                    .card-body {
-                        width: 17rem;
-                    }
+                    width: 70%;
+                    height: auto;
+                }
+                .card-body {
+                    width: 17rem;
                 }
             }
         }
+    }
     
 
 
