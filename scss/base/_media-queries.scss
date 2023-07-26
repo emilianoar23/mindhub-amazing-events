@@ -53,16 +53,15 @@ main {
         }
     }
 }
-    
-
-
-
-
-
-
-
-
-
+/*--------------- PAST EVENTS ---------------*/
+    .past-events-container {
+        flex-wrap: wrap;
+        margin: 60px 10px;
+    }
+/*------------------ STATS ------------------*/
+    table {
+        font-size: 1em;
+    }
 /*----------------- FOOTER -----------------*/
     footer {
         flex-direction: column;
