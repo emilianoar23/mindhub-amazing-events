@@ -45,6 +45,7 @@ main .cards-container {
     flex-wrap: wrap; }
     main .cards-container .d-flex .card {
       width: 18rem;
+      height: 40rem;
       margin: 10px; }
       main .cards-container .d-flex .card img {
         align-self: center;
