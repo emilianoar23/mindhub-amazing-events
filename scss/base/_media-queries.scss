@@ -5,8 +5,9 @@
         flex-direction: column;
         .nav.nav-pills {
             display: flex;
-            flex-direction: column;
-            align-items: stretch;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
         }
     }
 /*------------------ HOME ------------------*/
