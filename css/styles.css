@@ -32,7 +32,7 @@ main .hero-section-nav {
     font-size: 3em;
     font-weight: bold; }
 
-main .nav-cards {
+main .nav-bar-section {
   display: flex;
   flex-direction: column;
   margin: 30px;
@@ -40,7 +40,8 @@ main .nav-cards {
 
 main .cards-container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 4rem; }
   main .cards-container .d-flex {
     flex-wrap: wrap; }
     main .cards-container .d-flex .card {
@@ -120,33 +121,34 @@ footer {
       align-items: center;
       justify-content: center; }
   /*------------------ HOME ------------------*/
-  .hero-section-nav {
-    flex-direction: column;
+  main .hero-section-nav {
     align-items: center;
     padding: 8px; }
-    .hero-section-nav a {
+    main .hero-section-nav a {
       display: flex;
       align-items: center;
       justify-content: center; }
-      .hero-section-nav a img {
-        width: 80%; }
-  .nav-bar-section {
-    margin: 5px;
-    padding: 5px; }
-  .row {
+      main .hero-section-nav a img {
+        width: 60%; }
+    main .hero-section-nav h1 {
+      font-size: 2em; }
+  main .nav-bar-section {
+    margin: 10px;
+    padding: 0; }
+  main .cards-container {
     justify-content: center; }
-    .row .d-flex .card.m-4 {
+    main .cards-container .d-flex .card.m-4 {
       justify-content: center;
       align-items: center;
       margin: 0;
       width: 20rem; }
-      .row .d-flex .card.m-4 .card-image {
+      main .cards-container .d-flex .card.m-4 .card-image {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 70%;
         height: auto; }
-      .row .d-flex .card.m-4 .card-body {
+      main .cards-container .d-flex .card.m-4 .card-body {
         width: 17rem; }
   /*----------------- FOOTER -----------------*/
   footer {
